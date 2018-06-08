@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD85260820C8455100E891BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85260720C8455100E891BD /* AppDelegate.swift */; };
+		CD85260A20C8455100E891BD /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85260920C8455100E891BD /* SimpleViewController.swift */; };
+		CD85260D20C8455100E891BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85260B20C8455100E891BD /* Main.storyboard */; };
+		CD85260F20C8455100E891BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD85260E20C8455100E891BD /* Assets.xcassets */; };
+		CD85261220C8455100E891BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85261020C8455100E891BD /* LaunchScreen.storyboard */; };
+		CD85262620C94CCA00E891BD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85262520C94CCA00E891BD /* MainViewController.swift */; };
+		CD85262F20C9593000E891BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85262E20C9593000E891BD /* TableViewController.swift */; };
+		CD85264820CAC8DD00E891BD /* VuzersSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85264720CAC8DC00E891BD /* VuzersSDK.framework */; };
+		CD85264920CAC8DD00E891BD /* VuzersSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD85264720CAC8DC00E891BD /* VuzersSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD85263B20CAA55500E891BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD85264920CAC8DD00E891BD /* VuzersSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD85260420C8455100E891BD /* vuzers-ios-swift-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vuzers-ios-swift-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD85260720C8455100E891BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD85260920C8455100E891BD /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		CD85260C20C8455100E891BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD85260E20C8455100E891BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD85261120C8455100E891BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD85261320C8455100E891BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD85262520C94CCA00E891BD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CD85262E20C9593000E891BD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CD85264720CAC8DC00E891BD /* VuzersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VuzersSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD85260120C8455100E891BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD85264820CAC8DD00E891BD /* VuzersSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8525FB20C8455100E891BD = {
+			isa = PBXGroup;
+			children = (
+				CD85264720CAC8DC00E891BD /* VuzersSDK.framework */,
+				CD85260620C8455100E891BD /* vuzers-ios-swift-sample */,
+				CD85260520C8455100E891BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD85260520C8455100E891BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD85260420C8455100E891BD /* vuzers-ios-swift-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD85260620C8455100E891BD /* vuzers-ios-swift-sample */ = {
+			isa = PBXGroup;
+			children = (
+				CD85260720C8455100E891BD /* AppDelegate.swift */,
+				CD85262520C94CCA00E891BD /* MainViewController.swift */,
+				CD85260920C8455100E891BD /* SimpleViewController.swift */,
+				CD85262E20C9593000E891BD /* TableViewController.swift */,
+				CD85260B20C8455100E891BD /* Main.storyboard */,
+				CD85260E20C8455100E891BD /* Assets.xcassets */,
+				CD85261020C8455100E891BD /* LaunchScreen.storyboard */,
+				CD85261320C8455100E891BD /* Info.plist */,
+			);
+			path = "vuzers-ios-swift-sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD85260320C8455100E891BD /* vuzers-ios-swift-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD85261620C8455100E891BD /* Build configuration list for PBXNativeTarget "vuzers-ios-swift-sample" */;
+			buildPhases = (
+				CD85260020C8455100E891BD /* Sources */,
+				CD85260120C8455100E891BD /* Frameworks */,
+				CD85260220C8455100E891BD /* Resources */,
+				CD85263B20CAA55500E891BD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vuzers-ios-swift-sample";
+			productName = "vuzers-ios-sample";
+			productReference = CD85260420C8455100E891BD /* vuzers-ios-swift-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8525FC20C8455100E891BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Vuzers;
+				TargetAttributes = {
+					CD85260320C8455100E891BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD8525FF20C8455100E891BD /* Build configuration list for PBXProject "vuzers-ios-swift-sample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8525FB20C8455100E891BD;
+			productRefGroup = CD85260520C8455100E891BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD85260320C8455100E891BD /* vuzers-ios-swift-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD85260220C8455100E891BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD85261220C8455100E891BD /* LaunchScreen.storyboard in Resources */,
+				CD85260F20C8455100E891BD /* Assets.xcassets in Resources */,
+				CD85260D20C8455100E891BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD85260020C8455100E891BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD85262620C94CCA00E891BD /* MainViewController.swift in Sources */,
+				CD85260A20C8455100E891BD /* SimpleViewController.swift in Sources */,
+				CD85260820C8455100E891BD /* AppDelegate.swift in Sources */,
+				CD85262F20C9593000E891BD /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD85260B20C8455100E891BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD85260C20C8455100E891BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD85261020C8455100E891BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD85261120C8455100E891BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD85261420C8455100E891BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD85261520C8455100E891BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD85261720C8455100E891BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZA4978AHM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/vuzers-ios-swift-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vuzers.vuzers-ios-swift-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD85261820C8455100E891BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZA4978AHM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/vuzers-ios-swift-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vuzers.vuzers-ios-swift-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8525FF20C8455100E891BD /* Build configuration list for PBXProject "vuzers-ios-swift-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD85261420C8455100E891BD /* Debug */,
+				CD85261520C8455100E891BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD85261620C8455100E891BD /* Build configuration list for PBXNativeTarget "vuzers-ios-swift-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD85261720C8455100E891BD /* Debug */,
+				CD85261820C8455100E891BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8525FC20C8455100E891BD /* Project object */;
+}

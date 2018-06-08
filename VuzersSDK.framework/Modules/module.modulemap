@@ -1,0 +1,4 @@
+framework module VuzersSDK {
+    header "VuzersSDK-Swift.h"
+    requires objc
+}
