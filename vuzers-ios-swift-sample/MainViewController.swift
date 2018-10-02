@@ -18,7 +18,7 @@ class MainViewController: UIViewController, VuzersManagerDelegate {
         VuzersManager.shared.delegate = self
 
         sv = UIViewController.displaySpinner(onView: self.view)
-        VuzersManager.shared.load()
+        VuzersManager.shared.load(collapseView: true)
         
         addNavBarImage()
     }

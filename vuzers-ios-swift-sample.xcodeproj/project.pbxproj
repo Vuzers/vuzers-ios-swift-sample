@@ -14,8 +14,8 @@
 		CD85261220C8455100E891BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85261020C8455100E891BD /* LaunchScreen.storyboard */; };
 		CD85262620C94CCA00E891BD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85262520C94CCA00E891BD /* MainViewController.swift */; };
 		CD85262F20C9593000E891BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85262E20C9593000E891BD /* TableViewController.swift */; };
-		CD85264820CAC8DD00E891BD /* VuzersSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85264720CAC8DC00E891BD /* VuzersSDK.framework */; };
-		CD85264920CAC8DD00E891BD /* VuzersSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD85264720CAC8DC00E891BD /* VuzersSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDA23440213829C000EAFD8E /* VuzersSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2343E213828DE00EAFD8E /* VuzersSDK.framework */; };
+		CDA23441213829C000EAFD8E /* VuzersSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2343E213828DE00EAFD8E /* VuzersSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CD85264920CAC8DD00E891BD /* VuzersSDK.framework in Embed Frameworks */,
+				CDA23441213829C000EAFD8E /* VuzersSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +42,7 @@
 		CD85261320C8455100E891BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD85262520C94CCA00E891BD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CD85262E20C9593000E891BD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		CD85264720CAC8DC00E891BD /* VuzersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VuzersSDK.framework; sourceTree = "<group>"; };
+		CDA2343E213828DE00EAFD8E /* VuzersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VuzersSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD85264820CAC8DD00E891BD /* VuzersSDK.framework in Frameworks */,
+				CDA23440213829C000EAFD8E /* VuzersSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		CD8525FB20C8455100E891BD = {
 			isa = PBXGroup;
 			children = (
-				CD85264720CAC8DC00E891BD /* VuzersSDK.framework */,
+				CDA2343E213828DE00EAFD8E /* VuzersSDK.framework */,
 				CD85260620C8455100E891BD /* vuzers-ios-swift-sample */,
 				CD85260520C8455100E891BD /* Products */,
 			);
@@ -309,6 +309,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/vuzers-ios-swift-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vuzers.vuzers-ios-swift-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -328,6 +329,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/vuzers-ios-swift-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vuzers.vuzers-ios-swift-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -21,15 +21,9 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.delegate = self
         
         // Manage Vuzers Forms
-        if VuzersManager.shared.isReady() {
-            
-            let orig = CGPoint(x: 0, y: 0)
-            
-            if let vuzersForm = VuzersManager.shared.getForm(origin: orig, width: view.frame.width) {
-                tableView.tableHeaderView = vuzersForm.view
-            }
-        }
-        
+        if let vuzersHeaderView = VuzersManager.shared.getVuzersTableViewHeader(width: view.frame.width) {
+            tableView.tableHeaderView = vuzersHeaderView
+        }        
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

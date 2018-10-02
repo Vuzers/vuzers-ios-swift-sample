@@ -14,13 +14,10 @@ class SimpleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if VuzersManager.shared.isReady() {
-            
-            let orig = CGPoint(x: 0, y:250)
-            
-            if let vuzersForm = VuzersManager.shared.getForm(origin: orig, width: view.frame.width) {
-                self.view.addSubview(vuzersForm.view)
-            }
+        let orig = CGPoint(x: 0, y: 250)
+        
+        if let vuzersView = VuzersManager.shared.getVuzersView(origin: orig, width: view.frame.width) {
+            self.view.addSubview(vuzersView)
         }
     }
 }
